@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A021D90893E89D0B83870ADAE8ED641 /* Pods-WeboniseLab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 850B6FD33620C16C735939EE5159CD70 /* Pods-WeboniseLab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C95D6FC2AE60B133B2D422747A9BE84 /* Pods-WeboniseLab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B322315B5928BB867B2A45C7E9524461 /* Pods-WeboniseLab-dummy.m */; };
+		1E03E184E9961666A046FE7F8248B72A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		1FDB06B708F5F2E95F5929FB80D81397 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */; };
+		229F9B9B7F74DBBB980E04696AFEF120 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 7441FC01BA2C5AE09C3E4100207ADFFC /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310C0BE6497BF914AF44C2D34D93A5CD /* OHHTTPStubs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2845323BC4B4641ECF17723D5A1AC /* OHHTTPStubs-dummy.m */; };
+		36502673A4196C479363758DA0DFF904 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2470200A0FA89C505566A337A5FE8FAC /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4FBD55ADAE985CA0531169C6C6BB03E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		572124C7C0485CCD7714B39164220A9F /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B313F99D47A5614197BFFE8C585236 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C06E569BBE7A0223F0E9EEB88558E5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		7EE303365F4FCA1289A02D6F5152C139 /* Pods-WeboniseLabTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A5E002C50AF7A34E8E0378959F0D65 /* Pods-WeboniseLabTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FDE08C820FDDA8FEA84EA703861B57 /* OHHTTPStubs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 267AEEB44A52451393175C965E3779DD /* OHHTTPStubs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A367E5A9DE19FA5A20CF82CC644C5AC9 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A35ECA51EFED6F965139B7B475BF8F /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A68D68784474E21D6710DC6AF0DCE512 /* Pods-WeboniseLabTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A7FE9CAACDAAB8245086E8E937F51 /* Pods-WeboniseLabTests-dummy.m */; };
+		A7A5301D8559FF8E5AE42835D22A9A0A /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5F610F54750B9515A466051B604830 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C162C92F8A000CB6E4B236BEC7AA0AA2 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38A0E99481008998E7EFF386307DA4 /* OHHTTPStubsSwift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A49F84AE9C9E08104449D74B983E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A18423987E7143073B19F001B21B8E7;
+			remoteInfo = OHHTTPStubs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B8F6090839ED547103D5D67396295C /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		2470200A0FA89C505566A337A5FE8FAC /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsResponse.m; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		267AEEB44A52451393175C965E3779DD /* OHHTTPStubs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-umbrella.h"; sourceTree = "<group>"; };
+		35A35ECA51EFED6F965139B7B475BF8F /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		49CC2AB3D6FF4C3150FF50595AB9B3E4 /* Pods-WeboniseLabTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeboniseLabTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C0216D290857BE8DF3226E99FB09E67 /* Pods-WeboniseLabTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WeboniseLabTests.modulemap"; sourceTree = "<group>"; };
+		4EF1B87B18E18E65D895BA3023237B79 /* Pods-WeboniseLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeboniseLab.release.xcconfig"; sourceTree = "<group>"; };
+		53F709102D125691504B5AB303837887 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F415568F7BADAEFFC93D45DB81D4FBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A21C5EFB2D01795271A4D8B5593EF54 /* Pods-WeboniseLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeboniseLab.debug.xcconfig"; sourceTree = "<group>"; };
+		6A38A0E99481008998E7EFF386307DA4 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OHHTTPStubsSwift.swift; path = OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
+		72B5EC87B74146D0C6EEAEDAB5F0847A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D1B1D43C6F68A733C108BD0BE07933 /* Pods-WeboniseLab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeboniseLab-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7441FC01BA2C5AE09C3E4100207ADFFC /* Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Compatibility.h; path = OHHTTPStubs/Sources/Compatibility.h; sourceTree = "<group>"; };
+		75400048262D53040F4853AD3393FDFD /* Pods-WeboniseLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeboniseLabTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C5F610F54750B9515A466051B604830 /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
+		7C9B8635977AE8D61C953843F26E9BBF /* Pods-WeboniseLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeboniseLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		850B6FD33620C16C735939EE5159CD70 /* Pods-WeboniseLab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeboniseLab-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF7AC475D09AD8C6F7779465D7665D0 /* Pods-WeboniseLab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeboniseLab-frameworks.sh"; sourceTree = "<group>"; };
+		A03563B5F1BBEA83E2AA7218EB16E1A1 /* Pods-WeboniseLabTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeboniseLabTests-resources.sh"; sourceTree = "<group>"; };
+		A3984574A696FF6D16D9D7A1EF43317E /* Pods-WeboniseLab-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeboniseLab-resources.sh"; sourceTree = "<group>"; };
+		A4D8F2F063476595FE17BDB5A7949408 /* OHHTTPStubs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-prefix.pch"; sourceTree = "<group>"; };
+		A69EDA19863356C38BBE3CF248D27195 /* Pods-WeboniseLab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WeboniseLab.modulemap"; sourceTree = "<group>"; };
+		A6A5E002C50AF7A34E8E0378959F0D65 /* Pods-WeboniseLabTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeboniseLabTests-umbrella.h"; sourceTree = "<group>"; };
+		A71FFFC09BB092955683D90CD55303E9 /* Pods-WeboniseLabTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeboniseLabTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAD2845323BC4B4641ECF17723D5A1AC /* OHHTTPStubs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs-dummy.m"; sourceTree = "<group>"; };
+		B322315B5928BB867B2A45C7E9524461 /* Pods-WeboniseLab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeboniseLab-dummy.m"; sourceTree = "<group>"; };
+		B72A7FE9CAACDAAB8245086E8E937F51 /* Pods-WeboniseLabTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeboniseLabTests-dummy.m"; sourceTree = "<group>"; };
+		B7B313F99D47A5614197BFFE8C585236 /* OHHTTPStubs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubs.m; path = OHHTTPStubs/Sources/OHHTTPStubs.m; sourceTree = "<group>"; };
+		B9BBD303E44D04E8044FCDB6397EEE6B /* OHHTTPStubs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OHHTTPStubs.modulemap; sourceTree = "<group>"; };
+		CBE3BAA7E19E4B4AF6CF30EB37005F9F /* Pods_WeboniseLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeboniseLabTests.framework; path = "Pods-WeboniseLabTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA159454BD44EAB215F600A2AEE12F7A /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OHHTTPStubs.framework; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		DD827765F719007E70354FAE691C8073 /* OHHTTPStubs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHHTTPStubs.xcconfig; sourceTree = "<group>"; };
+		E669DF50E6737B7FA20910F223AC0274 /* Pods-WeboniseLab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeboniseLab-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC6895CBE63A55C2847EC42B124B2B78 /* Pods-WeboniseLabTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeboniseLabTests-frameworks.sh"; sourceTree = "<group>"; };
+		F9B682DBFC263975A350705C1F658666 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		FC649A528C9A07E77CEBE91C161E7DAF /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		FF91D37BFF80A775B83C84137FBB5533 /* Pods_WeboniseLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeboniseLab.framework; path = "Pods-WeboniseLab.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3278E29E4ED458130C773AA487A348FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C06E569BBE7A0223F0E9EEB88558E5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679FF26DC8277D90DB7FFB5417F1E969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDB06B708F5F2E95F5929FB80D81397 /* CFNetwork.framework in Frameworks */,
+				4FBD55ADAE985CA0531169C6C6BB03E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89CAB07D5BAB8DFEA2F4C34668D57A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E03E184E9961666A046FE7F8248B72A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B963F066CF1C907024B787F3D5186F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */,
+				5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1178F95DD02264DA874C68A2429DE44B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B8F6090839ED547103D5D67396295C /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4248A31545C67EB30E12FC72BA11A385 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C5E53A4E8DD26E8FDE750983BC33CBA /* Pods-WeboniseLab */,
+				C0DC8FEC193E6FB3A19318FD073F1B02 /* Pods-WeboniseLabTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B963F066CF1C907024B787F3D5186F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6EA9E4A6CFF4DDA84C2727D7E944D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC649A528C9A07E77CEBE91C161E7DAF /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD84AB387EEAEBB68E09EBAA681E03C /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B30011A1D2238AEE31A6A275803FCFE0 /* Base */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		6C9984A79ACCB931BF6A0A1F9DD4D0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA159454BD44EAB215F600A2AEE12F7A /* OHHTTPStubs.framework */,
+				FF91D37BFF80A775B83C84137FBB5533 /* Pods_WeboniseLab.framework */,
+				CBE3BAA7E19E4B4AF6CF30EB37005F9F /* Pods_WeboniseLabTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75593740B6E5447A14C5E2C6D5CA78B7 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6A38A0E99481008998E7EFF386307DA4 /* OHHTTPStubsSwift.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		7C5E53A4E8DD26E8FDE750983BC33CBA /* Pods-WeboniseLab */ = {
+			isa = PBXGroup;
+			children = (
+				53F709102D125691504B5AB303837887 /* Info.plist */,
+				A69EDA19863356C38BBE3CF248D27195 /* Pods-WeboniseLab.modulemap */,
+				72D1B1D43C6F68A733C108BD0BE07933 /* Pods-WeboniseLab-acknowledgements.markdown */,
+				E669DF50E6737B7FA20910F223AC0274 /* Pods-WeboniseLab-acknowledgements.plist */,
+				B322315B5928BB867B2A45C7E9524461 /* Pods-WeboniseLab-dummy.m */,
+				9EF7AC475D09AD8C6F7779465D7665D0 /* Pods-WeboniseLab-frameworks.sh */,
+				A3984574A696FF6D16D9D7A1EF43317E /* Pods-WeboniseLab-resources.sh */,
+				850B6FD33620C16C735939EE5159CD70 /* Pods-WeboniseLab-umbrella.h */,
+				6A21C5EFB2D01795271A4D8B5593EF54 /* Pods-WeboniseLab.debug.xcconfig */,
+				4EF1B87B18E18E65D895BA3023237B79 /* Pods-WeboniseLab.release.xcconfig */,
+			);
+			name = "Pods-WeboniseLab";
+			path = "Target Support Files/Pods-WeboniseLab";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CED13AFFC75D0CEEC4142814F4CFB2ED /* Pods */,
+				6C9984A79ACCB931BF6A0A1F9DD4D0DC /* Products */,
+				4248A31545C67EB30E12FC72BA11A385 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F62AC0FBA029ACB519876AB125DD2B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7441FC01BA2C5AE09C3E4100207ADFFC /* Compatibility.h */,
+				7C5F610F54750B9515A466051B604830 /* OHHTTPStubs.h */,
+				B7B313F99D47A5614197BFFE8C585236 /* OHHTTPStubs.m */,
+				35A35ECA51EFED6F965139B7B475BF8F /* OHHTTPStubsResponse.h */,
+				2470200A0FA89C505566A337A5FE8FAC /* OHHTTPStubsResponse.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		96547B4216D17189006BD6337D678609 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B5EC87B74146D0C6EEAEDAB5F0847A /* Info.plist */,
+				B9BBD303E44D04E8044FCDB6397EEE6B /* OHHTTPStubs.modulemap */,
+				DD827765F719007E70354FAE691C8073 /* OHHTTPStubs.xcconfig */,
+				AAD2845323BC4B4641ECF17723D5A1AC /* OHHTTPStubs-dummy.m */,
+				A4D8F2F063476595FE17BDB5A7949408 /* OHHTTPStubs-prefix.pch */,
+				267AEEB44A52451393175C965E3779DD /* OHHTTPStubs-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OHHTTPStubs";
+			sourceTree = "<group>";
+		};
+		9F575CC5B33AE16DDEDBCBD5F1460723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B682DBFC263975A350705C1F658666 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8E32E59FB8F59CB7F17ACDB8DBFFB2 /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				8F62AC0FBA029ACB519876AB125DD2B6 /* Core */,
+				96547B4216D17189006BD6337D678609 /* Support Files */,
+				75593740B6E5447A14C5E2C6D5CA78B7 /* Swift */,
+			);
+			name = OHHTTPStubs;
+			path = OHHTTPStubs;
+			sourceTree = "<group>";
+		};
+		B30011A1D2238AEE31A6A275803FCFE0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9F575CC5B33AE16DDEDBCBD5F1460723 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C0DC8FEC193E6FB3A19318FD073F1B02 /* Pods-WeboniseLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F415568F7BADAEFFC93D45DB81D4FBB /* Info.plist */,
+				4C0216D290857BE8DF3226E99FB09E67 /* Pods-WeboniseLabTests.modulemap */,
+				49CC2AB3D6FF4C3150FF50595AB9B3E4 /* Pods-WeboniseLabTests-acknowledgements.markdown */,
+				A71FFFC09BB092955683D90CD55303E9 /* Pods-WeboniseLabTests-acknowledgements.plist */,
+				B72A7FE9CAACDAAB8245086E8E937F51 /* Pods-WeboniseLabTests-dummy.m */,
+				EC6895CBE63A55C2847EC42B124B2B78 /* Pods-WeboniseLabTests-frameworks.sh */,
+				A03563B5F1BBEA83E2AA7218EB16E1A1 /* Pods-WeboniseLabTests-resources.sh */,
+				A6A5E002C50AF7A34E8E0378959F0D65 /* Pods-WeboniseLabTests-umbrella.h */,
+				7C9B8635977AE8D61C953843F26E9BBF /* Pods-WeboniseLabTests.debug.xcconfig */,
+				75400048262D53040F4853AD3393FDFD /* Pods-WeboniseLabTests.release.xcconfig */,
+			);
+			name = "Pods-WeboniseLabTests";
+			path = "Target Support Files/Pods-WeboniseLabTests";
+			sourceTree = "<group>";
+		};
+		CE19489E8F48283E8006D676A1D8DC9B /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				4A6EA9E4A6CFF4DDA84C2727D7E944D9 /* Frameworks */,
+				1178F95DD02264DA874C68A2429DE44B /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		CED13AFFC75D0CEEC4142814F4CFB2ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD84AB387EEAEBB68E09EBAA681E03C /* GoogleMaps */,
+				CE19489E8F48283E8006D676A1D8DC9B /* GooglePlaces */,
+				9F8E32E59FB8F59CB7F17ACDB8DBFFB2 /* OHHTTPStubs */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04DD8035A5BDEEFC32A1FABBFF50B39D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE303365F4FCA1289A02D6F5152C139 /* Pods-WeboniseLabTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AAB746481F28ED2AEA8532EDF5A2CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229F9B9B7F74DBBB980E04696AFEF120 /* Compatibility.h in Headers */,
+				80FDE08C820FDDA8FEA84EA703861B57 /* OHHTTPStubs-umbrella.h in Headers */,
+				A7A5301D8559FF8E5AE42835D22A9A0A /* OHHTTPStubs.h in Headers */,
+				A367E5A9DE19FA5A20CF82CC644C5AC9 /* OHHTTPStubsResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F952ACE272EDC454F2A4F784531CDE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A021D90893E89D0B83870ADAE8ED641 /* Pods-WeboniseLab-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A18423987E7143073B19F001B21B8E7 /* OHHTTPStubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED3435C001F79EDD798079721E7A4C /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */;
+			buildPhases = (
+				65D5D95D2EC2C538B88ACFAEDA1650F8 /* Sources */,
+				679FF26DC8277D90DB7FFB5417F1E969 /* Frameworks */,
+				91AAB746481F28ED2AEA8532EDF5A2CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHHTTPStubs;
+			productName = OHHTTPStubs;
+			productReference = DA159454BD44EAB215F600A2AEE12F7A /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24FDCB374B5FD282658FE40072CCC88D /* Pods-WeboniseLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EC058F16BBA35B21B1D4AF60C64EEA /* Build configuration list for PBXNativeTarget "Pods-WeboniseLabTests" */;
+			buildPhases = (
+				F74D06061BF6E3DF937234BBC68854A4 /* Sources */,
+				B89CAB07D5BAB8DFEA2F4C34668D57A3 /* Frameworks */,
+				04DD8035A5BDEEFC32A1FABBFF50B39D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C1189B94FEF79BC647035D28F516A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeboniseLabTests";
+			productName = "Pods-WeboniseLabTests";
+			productReference = CBE3BAA7E19E4B4AF6CF30EB37005F9F /* Pods_WeboniseLabTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A7A0F01FAF5EB815118F278878BA2C8 /* Pods-WeboniseLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC2B167C2181BE2ADB44D7037264FC0 /* Build configuration list for PBXNativeTarget "Pods-WeboniseLab" */;
+			buildPhases = (
+				52A4D333291BBF9959FB2E95A942C6B7 /* Sources */,
+				3278E29E4ED458130C773AA487A348FB /* Frameworks */,
+				F952ACE272EDC454F2A4F784531CDE7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WeboniseLab";
+			productName = "Pods-WeboniseLab";
+			productReference = FF91D37BFF80A775B83C84137FBB5533 /* Pods_WeboniseLab.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C9984A79ACCB931BF6A0A1F9DD4D0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A18423987E7143073B19F001B21B8E7 /* OHHTTPStubs */,
+				7A7A0F01FAF5EB815118F278878BA2C8 /* Pods-WeboniseLab */,
+				24FDCB374B5FD282658FE40072CCC88D /* Pods-WeboniseLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A4D333291BBF9959FB2E95A942C6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C95D6FC2AE60B133B2D422747A9BE84 /* Pods-WeboniseLab-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5D95D2EC2C538B88ACFAEDA1650F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310C0BE6497BF914AF44C2D34D93A5CD /* OHHTTPStubs-dummy.m in Sources */,
+				572124C7C0485CCD7714B39164220A9F /* OHHTTPStubs.m in Sources */,
+				36502673A4196C479363758DA0DFF904 /* OHHTTPStubsResponse.m in Sources */,
+				C162C92F8A000CB6E4B236BEC7AA0AA2 /* OHHTTPStubsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D06061BF6E3DF937234BBC68854A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D68784474E21D6710DC6AF0DCE512 /* Pods-WeboniseLabTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C1189B94FEF79BC647035D28F516A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHHTTPStubs;
+			target = 0A18423987E7143073B19F001B21B8E7 /* OHHTTPStubs */;
+			targetProxy = 52A49F84AE9C9E08104449D74B983E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10C6BC1AC793185214439581BEBA22D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF1B87B18E18E65D895BA3023237B79 /* Pods-WeboniseLab.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeboniseLab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeboniseLab/Pods-WeboniseLab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeboniseLab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38C9980039AE29E3A11C682EFF8E0950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD827765F719007E70354FAE691C8073 /* OHHTTPStubs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs/OHHTTPStubs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56106ADAC168788217996D6F3EEE1B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD827765F719007E70354FAE691C8073 /* OHHTTPStubs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs/OHHTTPStubs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AE4E1153D7047C1000D8E11214E2E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75400048262D53040F4853AD3393FDFD /* Pods-WeboniseLabTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeboniseLabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeboniseLabTests/Pods-WeboniseLabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeboniseLabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		851ECA41DF44914269295462BCC3C40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9B8635977AE8D61C953843F26E9BBF /* Pods-WeboniseLabTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeboniseLabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeboniseLabTests/Pods-WeboniseLabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeboniseLabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B1CD79F186D6123162C4948727CE526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A21C5EFB2D01795271A4D8B5593EF54 /* Pods-WeboniseLab.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WeboniseLab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeboniseLab/Pods-WeboniseLab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WeboniseLab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FED3435C001F79EDD798079721E7A4C /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56106ADAC168788217996D6F3EEE1B10 /* Debug */,
+				38C9980039AE29E3A11C682EFF8E0950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC2B167C2181BE2ADB44D7037264FC0 /* Build configuration list for PBXNativeTarget "Pods-WeboniseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1CD79F186D6123162C4948727CE526 /* Debug */,
+				10C6BC1AC793185214439581BEBA22D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3EC058F16BBA35B21B1D4AF60C64EEA /* Build configuration list for PBXNativeTarget "Pods-WeboniseLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851ECA41DF44914269295462BCC3C40E /* Debug */,
+				5AE4E1153D7047C1000D8E11214E2E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

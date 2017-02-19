@@ -1,0 +1,6 @@
+framework module Pods_WeboniseLabTests {
+  umbrella header "Pods-WeboniseLabTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

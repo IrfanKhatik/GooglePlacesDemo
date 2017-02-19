@@ -1,0 +1,42 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 9.966654300000002,
+               "lng" : 76.31681340000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 9.9830351,
+                  "lng" : 76.3291799
+               },
+               "southwest" : {
+                  "lat" : 9.9540601,
+                  "lng" : 76.29620489999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "c446563d8d5f2f26adff50b76c8a80dab1dc7b67",
+         "name" : "Vyttila",
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112378413979186570602/photos\"\u003eJoyce Xavier\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOi8cqq0B0MZL50ryDINtsI95j379HNxQJp9j5BTQtkbm-GluEsEETEbg5qpmLm6OG99VMGvwZOQSP4HloizxmiXBrIftlwfwCu40B2Jy9X_a6YhPyWtppo1ZEkvHo7gJrTGFtk2y_QrxrHmfq10MHvwWSIGfYF5mjpcESWDeUStEhA68kUbHpCWAktWo2Clfe6TGhSEOZw6lFqoYDRL1ptZbYo1glsOug",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJ-_6-gtdyCDsRS_yF6V0ydUE",
+         "reference" : "CmRbAAAAbxzRbIWN6JV50Yy8ME1sSawhhHYP-geElwnXf8Snp1McT_uDu-eu3P-gWucIknA7vPKTSavLUmx1ItF11TU0mOH39UbUeL8McfbFTyAKVAk4J_SUm369mGerzZRjjqAYEhCpYVCajm1psHf1Bz3i0fAtGhSGvyBRnpZJPZBMoWvZ2MZF0ZJ4FQ",
+         "scope" : "GOOGLE",
+         "types" : [ "sublocality_level_1", "sublocality", "political" ],
+         "vicinity" : "Vyttila"
+      }
+   ],
+   "status" : "OK"
+}
