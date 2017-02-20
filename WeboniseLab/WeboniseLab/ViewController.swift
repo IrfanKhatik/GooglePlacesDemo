@@ -79,14 +79,16 @@ class ViewController: UIViewController {
             if let error = error {
                 //error
                 if let strongSelf = self {
-                    let alert = UIAlertController(title: "Webonise Lab",
-                                                  message: error.localizedDescription,
-                                                  preferredStyle:.alert)
+                    DispatchQueue.main.async {
+                        let alert = UIAlertController(title: "Webonise Lab",
+                                                      message: error.localizedDescription,
+                                                      preferredStyle:.alert)
                 
-                    let okAction = UIAlertAction(title: "Ok", style: .cancel) { (alert: UIAlertAction) in
+                        let okAction = UIAlertAction(title: "Ok", style: .cancel) { (alert: UIAlertAction) in
+                        }
+                        alert.addAction(okAction)
+                        strongSelf.present(alert, animated: true, completion: nil)
                     }
-                    alert.addAction(okAction)
-                    strongSelf.present(alert, animated: true, completion: nil)
                 }
             }
             
@@ -163,6 +165,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         }
         guard let icon = place.pIcon else {
+            cell.imgIcon.image = UIImage(named: "SwiftIcon")
             return cell
         }
         
@@ -175,8 +178,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 }
             }
             
-            if let error = error {
-                //place.iconData = temp
+            if error != nil {
+                DispatchQueue.main.async {
+                    cell.imgIcon.image = UIImage(named: "SwiftIcon")
+                }
             }
         }
         

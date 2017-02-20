@@ -114,7 +114,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oqG-FP-OSk">
-                                <rect key="frame" x="0.0" y="64" width="320" height="389.5"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="390.5"/>
                                 <connections>
                                     <outlet property="delegate" destination="3M9-oy-069" id="DIX-rx-Baq"/>
                                 </connections>
@@ -165,7 +165,7 @@
                             <constraint firstItem="KX5-fU-Rra" firstAttribute="leading" secondItem="7qN-RK-rOC" secondAttribute="leading" id="Q6K-Va-clW"/>
                             <constraint firstAttribute="trailing" secondItem="oqG-FP-OSk" secondAttribute="trailing" id="iJc-Z0-Cqf"/>
                             <constraint firstItem="oqG-FP-OSk" firstAttribute="top" secondItem="fon-0B-DHB" secondAttribute="bottom" id="kkm-hb-vig"/>
-                            <constraint firstItem="KX5-fU-Rra" firstAttribute="top" secondItem="oqG-FP-OSk" secondAttribute="bottom" constant="1" id="opB-cn-Adi"/>
+                            <constraint firstItem="KX5-fU-Rra" firstAttribute="top" secondItem="oqG-FP-OSk" secondAttribute="bottom" id="opB-cn-Adi"/>
                             <constraint firstItem="oqG-FP-OSk" firstAttribute="leading" secondItem="7qN-RK-rOC" secondAttribute="leading" id="zZI-BJ-uB8"/>
                         </constraints>
                     </view>

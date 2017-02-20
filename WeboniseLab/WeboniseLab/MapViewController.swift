@@ -122,7 +122,7 @@ extension MapViewController : UICollectionViewDelegate, UICollectionViewDataSour
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GooglePhoto", for: indexPath) as! PhotoCell
         if resultPhotos.count <= indexPath.row {
             let photoDetail = photos[indexPath.row]
-            let dimension = Int(collectionView.bounds.size.height)
+            let dimension = Int(collectionView.bounds.size.height) * 3
             ServiceManager.sharedInstance.downloadImage(photoDetail["photo_reference"] as! String, dimension, dimension, completion: { [weak self](imageData, error) in
                 if let strongSelf = self {
                     if error != nil {
@@ -130,7 +130,9 @@ extension MapViewController : UICollectionViewDelegate, UICollectionViewDataSour
                     }
                 
                     if let imageData = imageData {
-                        cell.imgPhoto.image = UIImage(data: imageData)
+                        DispatchQueue.main.async {
+                            cell.imgPhoto.image = UIImage(data: imageData)
+                        }
                         strongSelf.resultPhotos.append(imageData)
                     }
                 }
